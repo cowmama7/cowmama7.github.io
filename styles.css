@@ -1,0 +1,20 @@
+h1 {
+    color: bisque;
+    text-align: center;
+}
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assign {
+    margin: 10px;
+    padding: 10px;
+    background-color: maroon;
+    display: flex;
+}
+.assign img {
+    width: 200px;
+    padding: 10px;
+    
+}
