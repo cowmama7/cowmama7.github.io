@@ -1,31 +1,32 @@
 h1 {
-    color: bisque;
+    color: black;
     text-align: center;
     width:100%
 }
 
 h1:hover {
-    color: light_salmon;
+    color: black;
     text-align: center;
     width:100%
 }
 body {
     background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    font-family: cursive;
+    background: url(images/trainBg.jpg);
 }
 
-.assign {
+p {
+    background-color: aqua;
+}
+
+table, th, td {
     margin: 10px;
     padding: 10px;
-    background-color: maroon;
-    border-radius: 20px;
-    display: block;
-    box-shadow: 8px 8px black;
-    width: 20%;
-    
+    background-color: lightcyan;
+    border:2px solid;
+    border-collapse:collapse;
 }
-.assign img {
-    width: 200px;
+
+div {
     padding: 10px;
 }
