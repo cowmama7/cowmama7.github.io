@@ -15,14 +15,18 @@ body {
     background: url(images/trainBg.jpg);
 }
 
-p {
-    background-color: aqua;
+#par1 {
+    display: inline-block;
+    background-color: #cdfd85;
+    border-radius: 10px;
+    padding: 20px;
+    
 }
 
-table, th, td {
+.tb   {
     margin: 10px;
     padding: 10px;
-    background-color: lightcyan;
+    background-color: #fd85cd;
     border:2px solid;
     border-collapse:collapse;
 }
