@@ -44,34 +44,8 @@ body {
 }
 #bigIdeas {
     color:white;
-    /*display:flex;*/
     flex: 1;
 }
-/*#secondLayer {
-    color:white;
-    display:flex;
-    flex: 1;
-}
-#sidebarLinks a {
-    text-decoration:none;
-}
-#ideas1 {
-    color:white;
-    display:flex;
-    flex-wrap:noWrap;
-}
-
-#ideas2 {
-    color:white;
-    display:flex;
-    flex-wrap:noWrap;
-}
-
-#ideas3 {
-    color:white;
-    display:flex;
-    flex-wrap:noWrap;
-}*/
 
 #bottomLayer {
     display: flex;
