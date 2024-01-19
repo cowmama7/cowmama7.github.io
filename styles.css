@@ -9,13 +9,35 @@ body {
     font-family: cursive;
 }
 
-p {
-    display: inline-block;
-    background-color: #cdfd85;
-    border-radius: 10px;
-    padding: 20px;
-}
 
 ul {
     text-decoration: none;
+}
+
+#assignments {
+    
+    padding:20px;
+    display:flex;
+    flex:1;
+}
+
+.assignment {
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
+    border-radius:15px;
+    
+}
+.assignment h3 {
+    text-align:center;
+}
+.assignment img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.assignment p {
+    padding:20px;
 }
