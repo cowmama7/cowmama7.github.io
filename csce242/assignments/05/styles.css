@@ -1,0 +1,73 @@
+#title {
+    text-align: center;
+    padding: 20;
+    font-family: cursive;
+    color: black;
+    background-color: Gray;
+
+}
+#topNav {
+	background-color:black;
+	color:white;
+	list-style-type: none;
+	display:inline-flex;
+	font-size:10px;
+}
+#topNav li {
+	text-align: end;
+	padding:10px;
+}
+#topNav a {
+	color:white;
+	text-decoration: none;
+}
+#headerLinks {
+    display: flex;
+    flex-basis:none;
+    flex-wrap: wrap;
+}
+#headerLinks li {
+    flex:1;
+    list-style-type: none;
+    text-align:center;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+#headerLinks a {
+    text-decoration: none;
+}
+#secondLayer {
+    display:flex;
+    flex-basis: none;
+    flex-wrap:noWrap;
+}
+
+#sidebarLinks {
+    display: block;
+    background-color:gray;
+    border-radius:15px;
+    padding-right:200px;
+    padding-left:15px;
+}
+#sidebarLinks li {
+    text-wrap:nowrap;
+    text-align:center;
+   list-style-type:none;
+}
+#bigIdeas {
+    flex: 1;
+}
+
+#bottomLayer {
+    display: flex;
+    flex-basis:none;
+    flex-wrap: wrap;
+}
+
+#bottomLayer .bottomItem {
+    padding: 15px;
+    flex:1;
+    list-style-type: none;
+    text-align:center;
+    background-color: lightGray;
+}
