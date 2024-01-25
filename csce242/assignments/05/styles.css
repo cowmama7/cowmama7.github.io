@@ -1,16 +1,16 @@
-#title {
-    text-align: center;
-    padding: 20;
-    font-family: cursive;
-    color: black;
-    background-color: Gray;
+/*First Layer*/
 
+#topBar{
+    background-color: black;
 }
+
 #topNav {
+    justify-content:flex-end;
+    margin-right:25%;
 	background-color:black;
 	color:white;
 	list-style-type: none;
-	display:inline-flex;
+	display:flex;
 	font-size:10px;
 }
 #topNav li {
@@ -21,53 +21,59 @@
 	color:white;
 	text-decoration: none;
 }
-#headerLinks {
-    display: flex;
-    flex-basis:none;
-    flex-wrap: wrap;
-}
-#headerLinks li {
-    flex:1;
-    list-style-type: none;
-    text-align:center;
-    border-radius: 5px;
-    background-color: lightgray;
-}
-#headerLinks a {
-    text-decoration: none;
-}
-#secondLayer {
+
+#logoSearch {
     display:flex;
-    flex-basis: none;
-    flex-wrap:noWrap;
 }
+#logoSearch img {
+    margin-left:25%;
+}
+#logoSearch input {
+    margin-left:auto;
+    margin-right:10px;
+    
+}
+
+#title {
+    text-align: left;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(165, 0, 0);
+
+}
+
+/*Second Layer*/
 
 #sidebarLinks {
     display: block;
-    background-color:gray;
-    border-radius:15px;
-    padding-right:200px;
-    padding-left:15px;
+    padding-right:25px;
+    padding-left: 25%;
 }
 #sidebarLinks li {
-    text-wrap:nowrap;
-    text-align:center;
+    text-align:left;
    list-style-type:none;
 }
-#bigIdeas {
-    flex: 1;
+#sidebarLinks a {
+    font-family:sans-serif;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+#secondLayer {
+    display:flex;
+    margin-right:25%;
 }
 
-#bottomLayer {
-    display: flex;
-    flex-basis:none;
-    flex-wrap: wrap;
+#secondBlock img {
+    width:max-content;
 }
 
-#bottomLayer .bottomItem {
-    padding: 15px;
-    flex:1;
-    list-style-type: none;
-    text-align:center;
-    background-color: lightGray;
-}
+
+
+
+
+
+
+
+

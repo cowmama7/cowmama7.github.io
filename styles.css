@@ -15,10 +15,7 @@ ul {
 }
 
 #assignments {
-    
-    padding:20px;
-    display:flex;
-    flex:1;
+    padding:20px; 
 }
 
 .assignment {
@@ -29,6 +26,7 @@ ul {
 .assignment h3 {
     text-align:center;
 }
+
 .assignment img {
     display: block;
   margin-left: auto;
@@ -41,10 +39,8 @@ ul {
 }
 
 #projects {
-    
+    display:block;S
     padding:20px;
-    display:flex;
-    flex:1;
 }
 
 .projectHeader h2 {
@@ -67,4 +63,15 @@ ul {
 
 .project p {
     padding:20px;
+}
+
+@media (min-width: 900px) {
+    #projects {
+        display:flex;
+        flex:1;
+    }
+    #assignments {
+        display:flex;
+        flex:1;
+    }
 }
