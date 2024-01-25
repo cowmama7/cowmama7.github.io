@@ -24,7 +24,14 @@
 
 #logoSearch {
     display:flex;
-    margin-right:10%
+    margin-right:10%;
+    input {
+        background-color:black;
+        font-weight:bold;
+    }
+    img {
+        width:15%
+    }
 }
 #logoSearch img {
     margin-left:15%;
@@ -36,8 +43,9 @@
 }
 
 #title {
-    padding-left:10%;
-    padding: 10px;
+    padding-left:15%;
+    padding-top:10px;
+    padding-bottom:10px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     background-color: #73000A;
@@ -48,9 +56,9 @@
 /*Second Layer*/
 
 #sidebarLinks {
-    display: block;
+    display: inline-block;
     padding-right:25px;
-    padding-left: 10%;
+    min-width:20%;
 }
 #sidebarLinks li {
     text-align:left;
@@ -62,22 +70,45 @@
     color:black;
     font-weight:bold;
 }
+#sidebarLinks a:hover {
+    font-family:sans-serif;
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    
+    background-color:#73000A;
+}
 #secondLayer {
-    display:flex;
-    margin-right:10%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.highlightElement h3 p {
+    display:block;
+}
+.highlightElement img {
+    padding-right:10px;
 }
 
 #thirdLayer {
-    display:flex;
-    margin-right:10%;
+    
+    margin-right:15%;
+    margin-left:30%;
 }
 
 #departmentHighlights {
     display:block;
-    margin-left:20%;
-    margin-right:10%;
+    padding-right:25px;
+}
+#departmentHighlights img {
+    padding-top: 20px;
 }
 
+#footerFirstBar a {
+    text-decoration:none;
+    text-color:black;
+    font-family:sans-serif;
+}
 #row3box1 {
     h1 {
         font-family:sans-serif;
@@ -99,20 +130,91 @@
     padding:40px;
 }
 
-#firstbar {
-    display:inline-flex;
-    flex:1;
-    padding:20px;
+#footerFirstBar {
+    background-color:lightGray;
+    padding-left: 15%;
+    padding-right:15%;
+    justify-content:space-between;
     a {
-        text-align:right;
+        padding:25px;
     }
-    
+}
+#footerRedSection {
+    background-color: #73000A;
+}
+#logoSocials {
+    display:flex;
+    flex:1;
+    padding:25px;
+    background-color:#73000A;
+    padding-left:15%;
+    padding-right: 15%;
+    justify-content:space-between;
 }
 
+.layerColumn a {
+    text-decoration:none;
+    font-family:monospace;
+    color:white;
+    line-height:20px;
+}
+
+#lowerLinks {
+    background-color:#73000A;
+}
+#lowerLinks h2{
+    color:white;
+    font-family:monospace;
+}
+
+#footerLastBar {
+    background-color:black;
+    color:white;
+    padding-left: 15%;
+    padding-right:15%;
+    justify-content:space-between;
+    a {
+        padding:25px;
+    }
+}
+#footerLastBar a {
+    color:white;
+    text-decoration:none;
+}
+
+@media (min-width: 900px) {
+    #secondLayer {
+        display:flex;
+    }
+    #thirdLayer {
+        display:flex;
+    }
+    #footerFirstBar {
+        display:flex;
+    }
+    #footerLastBar {
+        display:flex;
+    }
+    .highlightElement {
+        display:flex;
+    }
+    #lowerLinks {
+        display:flex;
+        justify-content:space-around;
+        padding:25px;
+    }
+   
+    .sectionlayer2 {
+        display:flex;
+        justify-content:space-between;
+    }
+    .layerColumn {
+        display:block;
+    }
 
 
 
-
+}
 
 
 
