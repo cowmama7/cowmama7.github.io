@@ -1,0 +1,41 @@
+#headerDiv0 {
+    display:flex;
+    flex:1;
+    justify-content:space-between;
+    a {
+        padding-top:40px;
+        padding-right:10px;
+        
+    }
+}
+#headerDiv1{
+    display:flex;
+    h1 {
+        padding:20px;
+    }
+}
+#headerDiv2 {
+    display:block;
+}
+#headerNavBar a {
+    text-decoration:none;
+}
+#uploadToTrainDexButton {
+    background-color:darkgrey;
+}
+
+#surveyForm {
+    background-color:lightgray;
+    padding:20px;
+    border-radius:25px;
+    text-align:center;
+    align-content:center;
+    align-items: center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#fileInput {
+    padding-left:4%; 
+}

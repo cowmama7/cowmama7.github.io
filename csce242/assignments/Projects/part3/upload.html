@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./upload.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+        <a href='./login.html'>Log in or Create Account</a>
+    </element>
+    <nav id="headerNavBar">
+        <a href='./index.html'>
+            <button id="viewTrainDexButton">View TrainDex</button>
+        </a>
+        <a href='./upload.html'>
+            <button id="uploadToTrainDexButton">Upload to TrainDex</button>
+        </a>
+        <a href="./totd.html">
+            <button id="trainOfTheDayButton">Train of the Day</button>
+        </a>
+        <a href="./search.html">
+            <button id="searchForATrainButton">Search for a Train</button>
+        </a>
+    </nav>
+
+    <element id="surveyForm">
+        <div id="inputDiv">
+        <h2>Thank You For Contributing to the TrainDex!</h2>
+        <h4>Your Name:</h4>
+        <input type="text" id="nameInput" placeholder="Please Enter">
+        <h4>Your Email Address:</h4>
+        <input type="text" id="emailInput" placeholder="Please Enter">
+        <h4>Train Name</h4>
+        <input type="text" id="trainNameInput" placeholder="Please Enter">
+        <h4>Train Company</h4>
+        <input type="text" id="trainCompanyInput" placeholder="Please Enter">
+        <h4>Train Build Date</h4>
+        <input type="text" id="trainBuildDateInput" placeholder="Please Enter">
+        <h4>Image of Train</h4>
+        <div id="fileInput">
+        <input type="file">
+        </div>
+        <h4>Extra Info/Notes</h4>
+        <textarea id="paragraph_text" cols="50" rows="10" placeholder="Input text here"></textarea>
+        <br>
+        <button id="submitEntryButton">Submit Entry</button>
+    </div>
+    </element>
+</body>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./search.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+        <a href='./login.html'>Log in or Create Account</a>
+    </element>
+    <div id="headerNavBar">
+        <a href='./index.html'>
+            <button id="viewTrainDexButton">View TrainDex</button>
+        </a>
+        <a href='./upload.html'>
+            <button id="uploadToTrainDexButton">Upload to TrainDex</button>
+        </a>
+        <a href="./totd.html">
+            <button id="trainOfTheDayButton">Train of the Day</button>
+        </a>
+        <a href="./search.html">
+            <button id="searchForATrainButton">Search for a Train</button>
+        </a>
+    </div>
+    <element id="bodyArea">
+    <h4>Search keywords for train name, company, or in train notes</h4>
+    <input type="text" id="searchValue" placeholder="Please Enter">
+    <button id="searchButton">Search</button>
+    <h2>Results:</h2>
+    <element id="mainTable">
+        <table>
+            <tr id="tableRow1">
+                <td>#</td>
+                <td width="20%">Train Name</td>
+                <td width="20%">Company</td>
+                <td width="15%">Image(click to enlarge)</td>
+                <td>Build Date</td>
+                <td>Upload Date</td>
+                <td width="20%">Notes</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Charger</td>
+                <td>Siemens</td>
+                <td><img src="./images/charger.jpg" width="100%"></td>
+                <td>25/12/2021</td>
+                <td>5/12/2022</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Charger</td>
+                <td>Siemens</td>
+                <td><img src="./images/charger.jpg" width="100%"></td>
+                <td>25/12/2021</td>
+                <td>5/12/2022</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Charger</td>
+                <td>Siemens</td>
+                <td><img src="./images/charger.jpg" width="100%"></td>
+                <td>25/12/2021</td>
+                <td>5/12/2022</td>
+                <td>N/A</td>
+            </tr>
+        </table>
+        <button id="refreshButton">Refresh</button>
+    </element>
+</body>

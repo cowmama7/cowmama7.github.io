@@ -1,0 +1,89 @@
+#headerDiv0 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    a {
+        padding-top: 40px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+}
+
+#firstLayer {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#headerDiv1 {
+    display: flex;
+
+    h1 {
+        padding: 20px;
+    }
+}
+
+
+#headerDiv2 {
+    display: block;
+}
+
+#headerNavBar a {
+    text-decoration: none;
+}
+
+#trainOfTheDayButton {
+    background-color: darkgrey;
+}
+
+
+
+#viewListing {
+    text-align: center;
+    display: block;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#firstLayer {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+#mainContent {
+    display: block;
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#imgBar {
+    display: flex;
+    flex: 1;
+
+    img {
+        padding: 2.5%
+    }
+}
+@media (min-width:900px) {
+#firstLayer {
+    display: flex;
+    flex: 1;
+}
+}
+
+#learnMoreButton {
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#learnMoreLink {
+    text-decoration: none;
+}

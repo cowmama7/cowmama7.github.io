@@ -1,0 +1,55 @@
+#headerDiv0 {
+    display:flex;
+    flex:1;
+    justify-content:space-between;
+    a {
+        padding-top:40px;
+        padding-right:10px;
+        text-decoration:none;
+    }
+}
+#headerDiv1{
+    display:flex;
+    h1 {
+        padding:20px;
+    }
+}
+#headerDiv2 {
+    display:block;
+}
+#headerNavBar a {
+    text-decoration:none;
+}
+#searchForATrainButton {
+    background-color:darkgrey;
+}
+
+#bodyArea {
+    display:block;
+    border-radius:25px;
+    background-color:lightgray;
+   /* padding:25px;*/
+}
+
+#tableRow1 {
+    background-color:gray;
+    color:white; 
+    
+}
+table, tr, td {
+    font-size:90%;
+    margin: 10px;
+    padding: 10px;
+    border:2px solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+@media (min-width:900px) {
+    table, tr, td {
+        font-size:medium;
+    }
+}
+#refreshButton {
+    font-size:15px;
+    border-radius:5px;
+}
