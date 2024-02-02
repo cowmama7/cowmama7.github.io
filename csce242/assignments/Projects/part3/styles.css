@@ -10,7 +10,7 @@
 }
 #headerDiv1{
     display:flex;
-    h1 {
+    h1 { 
         padding:20px;
     }
 }
@@ -42,3 +42,29 @@ table, tr, td {
     }
 }
    
+
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: left;
+    color:black;
+  }
+  
+
+  
+ 
