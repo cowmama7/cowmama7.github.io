@@ -16,6 +16,10 @@ ul {
 
 #assignments {
     padding:20px; 
+    display:block;
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
 }
 
 .assignment {
@@ -41,6 +45,8 @@ ul {
 #projects {
     display:block;
     padding:20px;
+    background-color:burlywood;
+    background-clip:content-box;
 }
 
 .projectHeader h2 {
@@ -65,7 +71,7 @@ ul {
     padding:20px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
     #projects {
         display:flex;
         flex:1;
@@ -73,5 +79,13 @@ ul {
     #assignments {
         display:flex;
         flex:1;
+        background-color: aqua;
+    }
+}
+@media (min-width:900px) {
+    #projects {
+        display:flex;
+        flex:1;
+        background-color:aqua;
     }
 }
