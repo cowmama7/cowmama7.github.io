@@ -14,7 +14,14 @@ ul {
     text-decoration: none;
 }
 
-#assignments {
+#assignments1 {
+    padding:20px; 
+    display:block;
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
+}
+#assignments2 {
     padding:20px; 
     display:block;
     background-color:burlywood;
@@ -71,18 +78,23 @@ ul {
     padding:20px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
     #projects {
         display:flex;
         flex:1;
     }
-    #assignments {
+    #assignments1 {
+        display:flex;
+        flex:1;
+        background-color: aqua;
+    }
+    #assignments2 {
         display:flex;
         flex:1;
         background-color: aqua;
     }
 }
-@media (min-width:900px) {
+@media (min-width:700px) {
     #projects {
         display:flex;
         flex:1;
