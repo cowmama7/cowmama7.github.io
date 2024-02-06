@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+@media (min-width:900px){
+    #boxes {
+        margin-left: 35%;
+        margin-right:35%;
+    }
+}
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+.box {
+    background-clip: content-box;
+}
+
+.box {
+    flex-basis: 100%;
+    padding: 5%;
+    background-color: lightsalmon;
+
+}
+
+h3 {
+    padding: 25px;
+}
+
+
+
+#inputDiv {
+    padding: 25px;
+}
+
+.imgDiv {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.slider {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 25px;
+    background: #d3d3d3;
+}
+
+#selector {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
