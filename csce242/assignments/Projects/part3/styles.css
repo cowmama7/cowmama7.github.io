@@ -19,6 +19,7 @@
 }
 #headerNavBar a {
     text-decoration:none;
+    font-size:99%;
 }
 #viewTrainDexButton {
     background-color:darkgrey;
@@ -40,9 +41,20 @@ table, tr, td {
     table, tr, td {
         font-size:medium;
     }
+    #headerNavBar {
+        display:block;
+    }
+    #hamburgerMenu {
+        display:none;
+    }
 }
    
-
+#headerNavBar {
+    display:none;
+}
+#hamburgerMenu {
+    display:block;
+}
 
 .topnav {
     overflow: hidden;
