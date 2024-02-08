@@ -48,8 +48,33 @@ table, tr, td {
     table, tr, td {
         font-size:medium;
     }
+    
 }
 #refreshButton {
     font-size:15px;
     border-radius:5px;
 }
+
+
+#headerNavBar {
+    display:none;
+}
+#hamburgerMenu {
+    display:block;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }

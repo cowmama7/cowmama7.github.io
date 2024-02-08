@@ -11,7 +11,7 @@
 }
 
 #firstLayer {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -69,11 +69,13 @@
         padding: 2.5%
     }
 }
+
 @media (min-width:900px) {
-#firstLayer {
-    display: flex;
-    flex: 1;
-}
+    #firstLayer {
+        display: flex;
+        flex: 1;
+    }
+   
 }
 
 #learnMoreButton {
@@ -87,3 +89,26 @@
 #learnMoreLink {
     text-decoration: none;
 }
+
+#headerNavBar {
+    display:none;
+}
+#hamburgerMenu {
+    display:block;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
