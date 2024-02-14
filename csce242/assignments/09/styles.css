@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+@media (min-width:900px){
+    #boxes {
+        margin-left: 35%;
+        margin-right:35%;
+    }
+}
+#box2 img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+#box1 img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+}
+.box {
+    background-clip: content-box;
+}
+
+.box h3 {
+    text-align:center;
+}
+.box {
+    flex-basis: 100%;
+    padding: 5%;
+    background-color: lightsalmon;
+
+}
+
+h3 {
+    padding: 25px;
+}
+
+
+
+#inputDiv {
+    padding: 25px;
+}
+
+.imgDiv {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#ballImg {
+    display:block;
+    padding-bottom:200px;
+}
+#startButton {
+    display:block;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+#selector {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
