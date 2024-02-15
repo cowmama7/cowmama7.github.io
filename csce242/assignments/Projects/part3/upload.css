@@ -33,8 +33,9 @@ h1 {
 }
 
 #surveyForm {
+    background-image: linear-gradient(lightgray,aqua);
     background-color: lightgray;
-    padding: 20px;
+    padding:20px;
     border-radius: 25px;
     text-align: center;
     align-content: center;
@@ -42,8 +43,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 #fileInput {
     padding-left: 4%;
@@ -71,4 +72,33 @@ h1 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+
+
+
+
+
+.flier {
+	pointer-events: none;
+}
+
+.flier > * {
+        animation: fly 20s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-200%) rotateZ(0);
+	position:relative;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+@keyframes fly {
+    0% {
+        transform:translateX(-100%);
+    }
+    100% {
+        transform:translateX(1000%);
+    }
 }

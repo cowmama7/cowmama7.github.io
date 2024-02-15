@@ -112,3 +112,28 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+
+  .flier {
+	pointer-events: none;
+}
+
+.flier > * {
+        animation: fly 20s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-200%) rotateZ(0);
+	position:relative;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+@keyframes fly {
+    0% {
+        transform:translateX(-100%);
+    }
+    100% {
+        transform:translateX(1000%);
+    }
+}
