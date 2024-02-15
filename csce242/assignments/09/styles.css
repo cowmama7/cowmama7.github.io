@@ -3,6 +3,10 @@ h1 {
     padding: 10px;
 }
 
+body {
+    background-color:aqua;
+}
+
 h2 {
     text-align: center;
     padding: 10px;
