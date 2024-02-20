@@ -43,9 +43,6 @@ h2 {
     background-clip: content-box;
 }
 
-.box h3 {
-    text-align:center;
-}
 .box {
     flex-basis: 100%;
     padding: 5%;
