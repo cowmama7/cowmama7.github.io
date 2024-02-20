@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color:aqua;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    p {
+        text-align:center;
+    }
+    a {
+        padding:10%;
+        text-decoration:none;
+    }
+}
+@media (min-width:900px){
+    #boxes {
+        margin-left: 35%;
+        margin-right:35%;
+    }
+}
+#box1 {
+    display:block;
+}
+#box1 img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+.box {
+    background-clip: content-box;
+}
+
+.box h3 {
+    text-align:center;
+}
+.box {
+    flex-basis: 100%;
+    padding: 5%;
+    background-color: lightsalmon;
+
+}
