@@ -31,7 +31,9 @@ ul {
 .assignment h3 {
     text-align:center;
 }
-
+h2 {
+    text-align: center;
+}
 
 .assignment p {
     padding:20px;
