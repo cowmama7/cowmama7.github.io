@@ -1,0 +1,61 @@
+h1 {
+    color: Black;
+    text-align: center;
+    width:100%
+}
+
+body {
+    background-color: aqua;
+    font-family: cursive;
+}
+
+
+ul {
+    text-decoration: none;
+}
+
+#assignments1 {
+    padding:20px; 
+    display:block;
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
+}
+
+.assignment {
+    width:25%;
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
+}
+.assignment h3 {
+    text-align:center;
+}
+
+
+.assignment p {
+    padding:20px;
+}
+#div1 {
+    display:flex;
+    padding:20px;
+}
+#popupTrainImg {
+    width:50%;
+}
+
+#notesOuter {
+    padding:20px;
+}
+@media (min-width: 900px) {
+    #assignments1 {
+        display:inline-flex;
+        flex-basis:100;
+        
+        background-color:aqua;
+    }
+    img {
+        padding-left:5%;
+        padding-bottom:5%;
+    }
+}
