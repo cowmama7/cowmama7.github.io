@@ -21,6 +21,15 @@ ul {
     background-clip:content-box;
     padding:20px;
 }
+#assignments1 .assignment {
+    width:33%;
+}
+#assignments2 .assignment {
+    width:33%;
+}
+#assignments3 .assignment {
+    width:25%;
+}
 #assignments2 {
     padding:20px; 
     display:block;
