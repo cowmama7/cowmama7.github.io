@@ -30,6 +30,9 @@ ul {
 #assignments3 .assignment {
     width:25%;
 }
+#projects .project {
+    width:25%;
+}
 #assignments2 {
     padding:20px; 
     display:block;
