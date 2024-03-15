@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./search.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+        <a href='./login.html'>Log in or Create Account</a>
+    </element>
+    <div id="headerNavBar">
+        <a href='./index.html'>
+            <button id="viewTrainDexButton">View TrainDex</button>
+        </a>
+        <a href='./upload.html'>
+            <button id="uploadToTrainDexButton">Upload to TrainDex</button>
+        </a>
+        <a href="./totd.html">
+            <button id="trainOfTheDayButton">Train of the Day</button>
+        </a>
+        <a href="./search.html">
+            <button id="searchForATrainButton">Search for a Train</button>
+        </a>
+    </div>
+    <div class="topnav">
+        <div id="hamburgerMenu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./images/hamburgerIcon.png" id="bar" class="fa fa-bars" width="20px"></i>
+            </a>
+            <div id="myLinks">
+                <a href='./index.html'>View TrainDex</a>
+
+                <a href='./upload.html'>Upload to TrainDex</a>
+
+                <a href="./totd.html">Train of the Day</a>
+
+                <a href="./search.html">Search for a Train</a>
+            </div>
+        </div>
+        <div class="flier"><img src = "./images/trainClipart.png"></div>
+    </div>
+    <element id="bodyArea">
+    <h4>Search keywords for train name, company, or in train notes</h4>
+    <input type="text" id="searchValue" placeholder="Ex: Siemens">
+    <button id="searchButton">Search</button>
+    <h2>Results:</h2>
+    <element id="mainTable">
+        <table>
+            <tr id="tableRow1">
+                <td>#</td>
+                <td width="20%">Train Name</td>
+                <td width="20%">Company</td>
+                <td width="15%">Image(click to enlarge)</td>
+                <td>Build Date</td>
+                <td>Upload Date</td>
+                <td width="20%">Notes</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Charger</td>
+                <td>Siemens Mobility</td>
+                <td><img src="./images/charger.jpg" width="100%"></td>
+                <td>2016-Present</td>
+                <td>2/7/2024</td>
+                <td>Built in 2016 and gradually entering service since then, the Siemens Chargers were built to replace the GE Genesis trains running on much of the network. These trains have a higher top speed of 125 mph, and are capable of diesel, or electric, or hybrid modes, and have been implemented in many of the routes that were previously served by GE Genesis locomotives.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Eurostar e320</td>
+                <td>Siemens</td>
+                <td><img src="./images/eurostare320.jpg" width="100%"></td>
+                <td>2011-2018</td>
+                <td>2/7/2024</td>
+                <td>Entering service in 2015, the e320s have been running consistent service along the british hs1 corridor and channel tunnel, connecting London with Paris, Brussels, Amsterdam, and several other destinations across Europe. With a top operating speed of 200mph, these are among the first high-speed rail trains to enter service in the UK</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Renfe Class 103</td>
+                <td>Siemens</td>
+                <td><img src="./images/renfeClass103.jpg" width="100%"></td>
+                <td>2001-2006</td>
+                <td>2/8/2024</td>
+                <td>Entering service in 2007, these trains have been used in service between Madrid and Barcelona, as well as between Madrid and Málaga. These trains are commissioned with a top speed of 217mph, but only reach 193mph in service</td>
+            </tr>
+        </table>
+        <button id="refreshButton">Refresh</button>
+    </element>
+</body>

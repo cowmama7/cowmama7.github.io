@@ -1,0 +1,32 @@
+#mainSection {
+    display:flex;
+    flex:1;
+}
+#firstBlock { 
+    font-size:larger;
+    font-family:monospace;
+    padding-left:25px;
+    text-align:25%;
+    margin-left:10%;
+    display:block;
+    background-color: #3A62D7;
+    color:white;
+    padding-bottom:6%;
+}
+
+#secondBlock {
+    font-size:larger;
+    font-family:monospace;
+    display: block;
+    margin-top:10%;
+    margin-right:10%;
+    text-align:75%;
+    padding-left:15%;
+}
+#rememberMeDiv {
+    display:flex;
+}
+
+#homeLink {
+    text-align:right;
+}
