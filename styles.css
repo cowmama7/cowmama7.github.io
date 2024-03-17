@@ -30,8 +30,11 @@ ul {
 #assignments3 .assignment {
     width:25%;
 }
-#projects .project {
-    width:25%;
+#projects1 .project {
+    width:33%;
+}
+#projects2 .project {
+    width:50%;
 }
 #assignments2 {
     padding:20px; 
@@ -99,7 +102,11 @@ ul {
 }
 
 @media (min-width: 900px) {
-    #projects {
+    #projects1 {
+        display:flex;
+        flex:1;
+    }
+    #projects2 {
         display:flex;
         flex:1;
     }
@@ -119,8 +126,13 @@ ul {
         background-color: aqua;
     }
 }
-@media (min-width:700px) {
-    #projects {
+@media (min-width:900px) {
+    #projects1 {
+        display:flex;
+        flex:1;
+        background-color:aqua;
+    }
+    #projects2 {
         display:flex;
         flex:1;
         background-color:aqua;
