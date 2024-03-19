@@ -19,7 +19,10 @@ console.log("Build Date: "+trainBuildDate);
 console.log("Locations Served: \n"+placesList);
 console.log("Image Address:"+imageFile);
 console.log("Notes: "+notesText);
-
+let par = document.createElement("p");
+par.textContent += "Name: "+userName + "\nEmail: "+userEmail+"\nTrain Name: "+trainName+"\nTrain Company: "+trainCompany+"\nBuild Date: "+trainBuildDate+"\nLocations Served: \n"+placesList+"\nImage Address:"+imageFile+"\nNotes: "+notesText;
+let appendDiv=document.getElementById("appendInfo");
+appendDiv.appendChild(par);
 }
 
 
