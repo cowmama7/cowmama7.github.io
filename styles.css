@@ -25,9 +25,12 @@ ul {
     width:33%;
 }
 #assignments2 .assignment {
-    width:25%;
+    width:33%;
 }
 #assignments3 .assignment {
+    width:33%;
+}
+#assignments4 .assignment {
     width:25%;
 }
 #projects1 .project {
@@ -51,6 +54,14 @@ ul {
     background-clip:content-box;
     padding:20px;
 }
+#assignments4 {
+    padding:20px; 
+    display:block;
+    background-color:burlywood;
+    background-clip:content-box;
+    padding:20px;
+}
+
 
 .assignment {
     background-color:burlywood;
@@ -121,6 +132,11 @@ ul {
         background-color: aqua;
     }
     #assignments3 {
+        display:flex;
+        flex:1;
+        background-color: aqua;
+    }
+    #assignments4 {
         display:flex;
         flex:1;
         background-color: aqua;
